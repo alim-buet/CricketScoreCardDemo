@@ -1,7 +1,9 @@
+//After first portion of the lectures i am now here.. going to commit 'em for commit no.2
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
-{
+{ 
     int target, overrem;
     cout << "Target: ";
 
