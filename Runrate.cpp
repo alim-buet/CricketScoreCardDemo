@@ -16,6 +16,17 @@ int main()
     cout << ((double)run / over) << endl;
     // projected score added
     cout << "Projected Score: " << (int)(((double)run / over) * 50) << endl;
-    // the world cup is the biggest event in cricket
+
+    // The below portion is a new feature added in different branch named featsection
+    if (((int)(((double)run / over) * 50)) >= 300)
+    {
+        cout << "congo! You guys are doing great!!" << endl;
+    }
+
+    else
+    {
+        cout << "C'mon man , It is 2023! Gear up!!" << endl;
+    }
+
     return 0;
 }
