@@ -16,5 +16,6 @@ int main()
     cout << ((double)run / over) << endl;
     // projected score added
     cout << "Projected Score: " << (int)(((double)run / over) * 50) << endl;
+    // the world cup is the biggest event in cricket
     return 0;
 }
