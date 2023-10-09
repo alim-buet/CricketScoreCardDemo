@@ -1,4 +1,4 @@
-// After first portion of the lectures i am now here.. going to commit 'em for commit no.2
+// It is now in a different branch where i will add some features
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -12,7 +12,8 @@ int main()
     cin >> over;
     cout << "Runrate: ";
 
-    cout << (double)run / over << endl;
-
+    cout << ((double)run / over) << endl;
+    // projected score added
+    cout << "Projected Score: " << (int)(((double)run / over) * 50) << endl;
     return 0;
 }
